@@ -65,6 +65,7 @@ $endTimestamp = strtotime($endDate); //Convert start date to Unix for comparison
                                             // else {
                                             //     echo ' - ';
                                             // }
+                                            
 
                                             echo ' - ';
                                             echo $date_last->format('M d, Y');
@@ -191,6 +192,8 @@ $endTimestamp = strtotime($endDate); //Convert start date to Unix for comparison
         <?php if (have_rows('tabs_section')) {
             while (have_rows('tabs_section')) {
                 the_row(); ?>
+            
+
 
                 <section class="tabs_content">
                     <div class="container">
@@ -519,6 +522,7 @@ $endTimestamp = strtotime($endDate); //Convert start date to Unix for comparison
                         </div>
                     </div>
                 </section>
+
             <?php } ?>
             <section class="additional_links">
                 <div class="container">
