@@ -66,6 +66,7 @@ $endTimestamp = strtotime($endDate); //Convert start date to Unix for comparison
                                             //     echo ' - ';
                                             // }
                                             
+                                            
 
                                             echo ' - ';
                                             echo $date_last->format('M d, Y');
